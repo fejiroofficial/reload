@@ -4,7 +4,7 @@ import React from 'react';
 
 const SetupCard = ({ image, title, description }) => {
   return (
-    <div className="flex flex-col items-start gap-4 p-4 border-[0.5px]">
+    <div className="flex flex-col items-start gap-4 p-4 border-[0.5px] border-[#282828] bg-[#111114]">
       <div className="bg-[#111114] rounded-full w-10 h-10 flex-shrink-0">
         <Image src={image} alt={title} className="object-contain" />
       </div>
