@@ -4,11 +4,11 @@ import { steps } from "@/app/component/data";
 
 export default function HowItWorks() {
   return (
-    <div className="container mx-auto flex flex-col lg:flex-row justify-between lg:items-start px-4 py-16">
+    <div className="container mx-auto flex flex-col lg:flex-row justify-between gap-12 px-4 py-16">
       {/* Left side */}
       <div className="">
         <Badge text="How it Works" />
-        <h1 className="text-[#F9F9F9] text-[36px] md:text-[48px] font-semibold leading-snug mt-4">
+        <h1 className="text-[#F9F9F9] text-[36px] md:text-[48px] font-semibold leading-snug mt-4 ">
           Get started in just 3 Easy Steps
         </h1>
       </div>
